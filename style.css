@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -41,6 +41,7 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: lighter;
 }
 
 .top-content {
@@ -85,5 +86,48 @@ button {
     align-items: center;
     width: 500px;
     height: 220px;
+    background-color: #E5E7EB;
+}
+
+.action {
+    padding-bottom: 125px;
+}
+
+.title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.action-content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+.block {
+    height: 165px;
+    width: 165px;
+    border: 4px solid #3882F6;
+    border-radius: 18px;
+}
+
+.info {
+    max-width: 165px;
+}
+
+.info .subtext {
+    text-align: center;
+    color: rgba(94, 97, 103, 0.659);
+    margin-top: 4px;
+}
+
+.quote {
+    height: 500px;
     background-color: #E5E7EB;
 }
