@@ -65,19 +65,20 @@ a {
 
 .subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7ebd7;
 
 }
 
 button {
-    width: 115px;
-    padding: 8px;
+    width: 130px;
+    padding: 7px;
     background-color: #3882F6;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
     color: #F9FAF8;
+    margin: 5px;
 }
 
 .image {
@@ -89,7 +90,7 @@ button {
     background-color: #E5E7EB;
 }
 
-.action {
+.info-section {
     padding-bottom: 125px;
 }
 
@@ -104,7 +105,7 @@ button {
     margin: 50px 0;
 }
 
-.action-content {
+.info-content {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -128,6 +129,50 @@ button {
 }
 
 .quote {
-    height: 500px;
+    padding: 130px 320px;
     background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+.credit {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    margin-right: 35px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.action-block {
+   display: flex;
+   padding: 50px 120px;
+   justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 800px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-block .text {
+    display: block;
+    max-width: 600px;
+}
+
+.action-block button {
+    border: 2px solid #E5E7EB;
 }
